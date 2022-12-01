@@ -11,10 +11,14 @@
     <!-- Navbar -->
     <nav class="relative container mx-auto bg-teal-100 p-6">
       <div class="flex items-center justify-between">
+        <div class="mx-auto my-6 text-center text-white md:hidden">
+          Copyright &copy: 2022, All Rights Reserved
+        </div>
         <!-- logo -->
         <div class="pt-2">
           <img src="img/logo.svg" alt="" />
         </div>
+
         <!-- menu items -->
         <div class="hidden md:flex space-x-6">
           <a href="#" class="hover:text-teal-500">Pricing</a>
@@ -199,7 +203,7 @@
           <!-- testimonials 1 -->
 
           <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 border-solid border-2 border-sky-500"
+            class="flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 border-solid border-2 border-sky-500"
           >
             <img src="img/avatar-anisha.png" class="w-16 -mt-14" alt="" />
             <h5 class="text-lg font-bold">Anisha Li</h5>
@@ -243,20 +247,134 @@
       </div>
     </section>
 
-    <!-- cta -->
+    <!-- cta section-->
     <section id="cta" class="bg-brightRed">
       <!-- flex container -->
       <div
         class="container flex flex-col items-center justify-between px-6p py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0 border-2 border-sky-500"
       >
-        <!-- please delete -->
         <!-- heading -->
         <h2
-          class="max-w-md text-5xl font-bold leading-tight text-center md:text-left"
+          class="max-w-md text-5xl font-bold leading-tight text-center md:max-w-xl md:text-left"
         >
           Simplify how your team works today
         </h2>
+        <!-- button -->
+        <div>
+          <a
+            href="#"
+            class="p-3 pt-2 text-white bg-teal-700 rounded-full baseline hover:bg-teal-600"
+            >Get Started</a
+          >
+        </div>
       </div>
     </section>
+
+    <!-- footer -->
+    <footer class="bg-veryDarkBlue">
+      <!-- flex container -->
+      <div
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0 border-solid border-2 border-sky-500"
+      >
+        <!-- logo and social links container -->
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start border-solid border-2 border-sky-500"
+        >
+          <!-- logo -->
+          <div>
+            <img src="img/logo-white.svg" class="h-8" alt="" />
+          </div>
+          <!-- social links container -->
+          <div
+            class="flex justify-center space-x-4 border-solid border-2 border-sky-500"
+          >
+            <!-- link 1 -->
+            <a href="#">
+              <img src="img/icon-facebook.svg" class="h-8" alt="" />
+            </a>
+            <!-- link 2 -->
+            <a href="#">
+              <img src="img/icon-youtube.svg" class="h-8" alt="" />
+            </a>
+            <!-- link 3 -->
+            <a href="#">
+              <img src="img/icon-twitter.svg" class="h-8" alt="" />
+            </a>
+            <!-- link 4 -->
+            <a href="#">
+              <img src="img/icon-.svg" class="h-8" alt="" />
+            </a>
+            <!-- link 5 -->
+            <a href="#">
+              <img src="img/icon-facebook.svg" class="h-8" alt="" />
+            </a>
+          </div>
+        </div>
+        <!-- list container -->
+        <div
+          class="flex justify-around space-x-32 border-solid border-2 border-sky-500"
+        >
+          <div class="flex flex-col space-y-3 text-white">
+            <a
+              href="#"
+              class="hover:text-brightRed border-solid border-2 border-sky-500"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="hover:text-brightRed border-solid border-2 border-sky-500"
+              >Pricing</a
+            >
+            <a
+              href="#"
+              class="hover:text-brightRed border-solid border-2 border-sky-500"
+              >Products</a
+            >
+            <a
+              href="#"
+              class="hover:text-brightRed border-solid border-2 border-sky-500"
+              >About</a
+            >
+          </div>
+          <div class="flex flex-col space-y-3 text-white">
+            <a
+              href="#"
+              class="hover:text-brightRed border-solid border-2 border-sky-500"
+              >Careers</a
+            >
+            <a
+              href="#"
+              class="hover:text-brightRed border-solid border-2 border-sky-500"
+              >Community</a
+            >
+            <a
+              href="#"
+              class="hover:text-brightRed border-solid border-2 border-sky-500"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+        <!-- input container -->
+        <div class="flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-full focus:outline-none"
+                placeholder="Updated in your inbox"
+              />
+              <button
+                class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
+              >
+                button me
+              </button>
+            </div>
+          </form>
+          <div class="hidden text-white md:block">
+            Copyright &copy: 2022, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
